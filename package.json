@@ -1,6 +1,6 @@
 {
-  "name": "git-cz",
-  "version": "4.8.0",
+  "name": "@hlerenow/git-cz",
+  "version": "4.9.0",
   "description": "Semantic emojified git commit, git-cz.",
   "main": "dist/cz.js",
   "bin": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/streamich/git-cz.git"
+    "url": "git@github.com:hlerenow/git-cz.git"
   },
-  "homepage": "https://github.com/streamich/git-cz",
-  "license": "Unlicense",
+  "homepage": "https://github.com/hlerenow/git-cz",
+  "license": "MIT",
   "scripts": {
     "lint": "yarn eslint",
     "clean": "rimraf dist binaries",

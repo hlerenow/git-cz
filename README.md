@@ -72,7 +72,7 @@ module.exports = {
   list: ['test', 'feat', 'fix', 'chore', 'docs', 'refactor', 'style', 'ci', 'perf'],
   maxMessageLength: 64,
   minMessageLength: 3,
-  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
+  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'packages'],
   scopes: [],
   types: {
     chore: {
@@ -126,14 +126,14 @@ module.exports = {
       value: 'test'
     },
     messages: {
-      type: 'Select the type of change that you\'re committing:',
+      type: "Select the type of change that you're committing:",
       customScope: 'Select the scope this component affects:',
       subject: 'Write a short, imperative mood description of the change:\n',
       body: 'Provide a longer description of the change:\n ',
       breaking: 'List any breaking changes:\n',
       footer: 'Issues this commit closes, e.g #123:',
-      confirmCommit: 'The packages that this commit has affected\n',
-    },
+      confirmCommit: 'The packages that this commit has affected\n'
+    }
   }
 };
 ```
@@ -156,7 +156,7 @@ CLI parameters:
 - `--body`
 - `--breaking`
 - `--issues`
-- `--lerna`
+- `--packages`
 
 ## Disable Emoji
 
@@ -226,7 +226,7 @@ The subject contains succinct description of the change:
 Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes".
 The body should include the motivation for the change and contrast this with previous behavior.
 
-#### Affects [only on [lerna](https://lernajs.io/) environments]
+#### Affects [only on monorepo environments]
 
 Select the packages the commit affected.
 

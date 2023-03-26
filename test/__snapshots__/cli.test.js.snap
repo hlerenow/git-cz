@@ -20,7 +20,7 @@ exports[`git-cz --help 1`] = `
         --body              extended description of the commit
         --breaking          description of breaking changes, if any
         --issues            GitHub issues this commit closed, e.g \\"#123\\"
-        --lerna             Lerna mono-repo packages this commit affects
+        --packages          packages mono-repo packages this commit affects
 
 "
 `;

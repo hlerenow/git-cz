@@ -12,7 +12,7 @@ const defaultConfig = {
   list: ['test', 'feat', 'fix', 'chore', 'docs', 'refactor', 'style', 'ci', 'perf'],
   maxMessageLength: 64,
   minMessageLength: 3,
-  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'lerna'],
+  questions: ['type', 'scope', 'subject', 'body', 'breaking', 'issues', 'packages'],
   scopes: [],
   types: {
     chore: {
@@ -73,7 +73,7 @@ const defaultState = {
     body: '',
     breaking: '',
     issues: '',
-    lerna: '',
+    packages: '',
     scope: '',
     subject: 'First commit',
     type: 'feat'
